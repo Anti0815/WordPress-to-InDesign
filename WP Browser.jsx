@@ -141,7 +141,7 @@ function bdnSearch( searchString ) {
 		return;
 	}
 	
-	var searchResults = eval('(' + resultsJSON + ')');	
+	searchResults = eval('(' + resultsJSON + ')');	
 	
 	results.removeAll();
 
